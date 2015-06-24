@@ -1,5 +1,5 @@
 # CollabLab-Flask-basic
-Meant to be a set of base code for CollabLab research assistants to use for developing web apps.  Please fork this app and update as needed.  If you don't know how to update something from the original repository, [this is a great blog on how to set that up](http://bradlyfeeley.com/2008/09/03/update-a-github-fork-from-the-original-repo/) so that you can update your project with any new developments from us.
+Meant to be a set of base code for CollabLab research assistants to use for developing web apps.  Please fork this app and update as needed.  If you don't know how to update something from the original repository, follow [these instructions to add an "upstream" link to this repository](https://help.github.com/articles/syncing-a-fork/) and [these instructions to fetch from this repository](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
 
 You will need to have the following installed in order to use this:
 * Python
