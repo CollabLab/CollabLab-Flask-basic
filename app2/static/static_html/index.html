@@ -1,26 +1,35 @@
-<!DOCTYPE html>
+df!DOCTYPE html>
 <html>
 				<head>
 								<title>
-												CollabLab Flask Primer
+												CollabLab Flask Primer - App #2
 								</title>
 								<link rel="stylesheet" type="text/css" href="css/example.css">
-								<script src="js/example.js"></script>
+								<script src="js/ajax_code.js" defer></script>
 				</head>
 
 				<body>
-								<h1>Header</h1>
-								<h3>Subheader</h3>
+								<h1>Working with Ajax and SQLite3 database</h1>
 								<div id="main">
-												<p id='intro'>This is the intro to our page</p>
-												<p id='main'>This where our main content would be</p>
+												<div id="enter_message" class="section">
+																<h3 class='section_header'>Storing A Message</h3>
+																<p class='note'>Enter something below and it will get saved in the database</p>
+																<input type="textarea" id="message_to_insert">
+																
+																<button onclick="send_message_to_db()">Record In Database</button>
+												</div>
+
+												<div id="get_messages" class="section">
+																<h3 class='section_header'>Getting Messages</h3>
+																<p class='note'>Click the button below and Flask will query the SQLite3 database for all messages and send them back so that they can be displayed below</p>
+																<button onclick="get_messages()">Get Messages From Database</button>
+												</div>
 								</div>
 
-								<div id="footer">
+								<div id="footer" class="section">
 												<p class="tiny">Produced by CollabLab</p>
 												<p class="tiny">A Scott Allen Cambo joint</p>
 								</div>
 
-								<button type="button" onclick="changeBGColor()">Click this to change background</button>
 				</body>
 </html>

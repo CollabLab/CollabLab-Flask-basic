@@ -1,10 +1,14 @@
+body {
+				background-color:#99CCFF;
+}
+
 h1 {
-				color : #ccc;
+				color : #C15844;
 				font-family: "Advent Pro";
 				font-feature-settings: "'liga' 1";
 				font-kerning: auto;
 				font-style: normal;
-				font-size: 10em;
+				font-size: 4em;
 				font-weight: 400;
 				letter-spacing: 0;
 				line-height: 1.5em;
@@ -15,7 +19,7 @@ h1 {
 }
 
 h3 {
-				font-size:5em;
+				font-size:2em;
 				line-height:0.8em;
 				text-align:center;
 }
@@ -24,8 +28,31 @@ h3 {
 				text-align:center;
 }
 
+.section {
+				margin: 0 auto;
+				margin-top:20px;
+				margin-bottom:20px;
+				border-radius:25px;
+}
+
+#enter_message {
+				background-color:#C15844;
+				width:500px;
+				padding-top:10px;
+				padding-bottom:10px;
+}
+
+#get_messages {
+				background-color:#92B421;
+				width:500px;
+				padding-top:10px;
+				padding-bottom:10px;
+}
+
 #footer {
 				text-align:center;
+				border:2px solid;
+				width:300px;
 }
 
 button {
